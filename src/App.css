@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #800080;
+  max-width: 1440px;
+  height: 1250px;
+  margin: 0 auto;
+}
+
+.TituloPrincipal {
+  width: 80vw;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 6rem;
+  font-weight: 700;
+  margin: 3vw 0 5vw 0;
+}
+
+.ContainerMonsters {
+  width: 70vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 4.5vw;
+}
+
+.NameMonsters {
+  height: fit-content;
+  font-size: 3rem;
+  font-family: "Inter", sans-serif;
+  color: #ed2e2e;
+}
+
+.CaixaMonsters {
+  width: 17.7vw;
+  height: 22.7vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #EFB41C;
+  border-radius: 38px;
+  align-items: center;
+  padding: 0 0 1vw 0;
+}
+
+.Monsters {
+  width: 12.3vw;
+}
